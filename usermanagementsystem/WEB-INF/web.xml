@@ -1,0 +1,33 @@
+<web-app>
+	<servlet>
+		<servlet-name>registerhandler</servlet-name>
+		<servlet-class>RegisterHandler</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>registerhandler</servlet-name>
+		<url-pattern>/registerhandler</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>loginhandler</servlet-name>
+		<servlet-class>LoginHandler</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>loginhandler</servlet-name>
+		<url-pattern>/loginhandler</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>userview</servlet-name>
+		<servlet-class>UserView</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>userview</servlet-name>
+		<url-pattern>/userview</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
